@@ -1,14 +1,30 @@
 {
   "name": "traverse-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Traverse object for templating values",
   "main": "lib/traverse-template.js",
   "scripts": {
     "lint": "snazzy",
     "test": "npm run lint && mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/loicmahieu/traverse-template.git"
+  },
+  "homepage" : "https://github.com/loicmahieu/traverse-template",
+  "keywords" : [
+    "traverse",
+    "template",
+    "recursive",
+    "object",
+    "string"
+  ],
+  "author" : {
+    "name" : "Loic Mahieu",
+    "email" : "mahieuloic@gmail.com",
+    "url" : "https://github.com/loicmahieu"
+  },
+  "license" : "MIT",
   "dependencies": {
     "es6-template": "^1.0.4",
     "traverse": "^0.6.6"
