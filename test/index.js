@@ -3,8 +3,8 @@
 const expect = require('chai').expect
 const traverseTemplate = require('..')
 
-describe('traverse-template', () => {
-  it('works', () => {
+describe('traverse-template', function () {
+  it('works', function () {
     expect(
       traverseTemplate({
         vars: {
@@ -44,7 +44,7 @@ describe('traverse-template', () => {
     })
   })
 
-  it('works with given locals', () => {
+  it('works with given locals', function () {
     expect(
       traverseTemplate({
         foo: '${vars.foo} !',
